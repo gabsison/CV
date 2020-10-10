@@ -1,0 +1,201 @@
+/*DEBUG*/
+/*
+*{
+  outline: 1px solid red;
+}
+
+div {
+  outline: 1px solid blue;
+}
+*/
+/*******TAG SELECTOR******/
+
+body {
+  margin: 0;
+  text-align: center;
+
+}
+a{
+  font-family: 'Merriweather', serif;
+  color: #c9e8e8;
+  text-decoration: none;
+}
+a:hover{
+  color: white;
+}
+hr{
+  border: 10px dotted #e4e3e3;
+  border-top-style: none;
+  width: 10%;
+}
+h1 {
+  margin-top: 0;
+  font-family: 'Sansita Swashed', cursive;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+  width: 50%;
+  margin: auto;
+  padding: 10px 0 10px 0;
+}
+
+h3 {
+  font-family: 'Merriweather', serif;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+}
+
+table {
+  margin: auto;
+}
+
+td {
+  padding: 20px;
+  width: 200px;
+  font-family: 'Merriweather', serif;
+}
+
+/**CLASS SELECTOR***/
+.top-container {
+  background-color: #d6e0f0;
+  position: relative;
+  padding-top: 100px;
+}
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 400px;
+}
+.name-headline {
+  width: 50%;
+  margin: auto;
+}
+
+.intro-line {
+  width: 50%;
+  margin: auto;
+}
+
+.self-intro-line {
+  font-family: 'Sansita Swashed', cursive;
+}
+
+.middle-container {
+  position: relative;
+}
+
+.profile {
+  width: 50%;
+  display: inline-block;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-me {
+  width: 50%;
+  margin: auto;
+}
+
+.description {
+  width: 60%;
+  padding: 0 230px 0;
+  text-align: left;
+}
+.gab-picture {
+  width: 200px;
+  padding: 10px;
+  margin: auto;
+  float: left;
+}
+
+.skill-section {
+  position: relative;
+}
+
+.skills-headline {
+  width: 50%;
+  margin: auto;
+}
+
+.skills {
+  width: 50%;
+  margin: auto;
+  height: 100%;
+  display: inline-block;
+  padding: 50px 0 50px 0;
+}
+
+.skill-row {
+  padding: 0 50px 0 50px;
+}
+
+.html {
+  height: 100px;
+  width: 100px;
+}
+
+.css {
+  height: 100px;
+  width: 100px;
+}
+
+.msoffice {
+  height: 100px;
+  width: 100px;
+}
+
+.java {
+  height: 100px;
+  width: 100px;
+}
+
+.education-section {
+  position: relative;
+}
+
+.education-headline {
+  width: 50%;
+  margin: auto;
+}
+
+.education {
+  width: 50%;
+  margin: auto;
+  height: 100%;
+  display: inline-block;
+  padding: 50px 0 50px 0;
+}
+
+.education-row {
+  padding: 0 50px 0 50px;
+}
+.bottom-container {
+  position: relative;
+  background-color: #66BFBF;
+  padding-bottom: 20px;
+}
+
+.copyright{
+  font-size: 0.75rem;
+  width: 50%;
+  margin: auto;
+  padding: 30px 0 10px 0;
+}
+.authorise-icons{
+  font-size: 0.75rem;
+  width: 50%;
+  margin: auto;
+
+}
